@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health & Fitness Club</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- <link rel="stylesheet" href="utils.css"> -->
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">HEALTH & FITNESS CLUB</div>
+                <ul class="navbar flex items-center">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="dumbellimg" src="dumbell.jpg" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">The best Fitness Gym in the town </h1>
+                        <p class=" text-center">Join our community and reach your fitness goals.</p>
+                        <p class=" text-center">At  this Fitness Gym, we believe in promoting a healthy and active lifestyle. Our mission is to provide top-notch fitness services and facilities to help you achieve your fitness goals. Our unique approach combines personalized training, group classes, and nutritional counseling to support you every step of the way.</p>
+                            <!-- Display the countdown timer in an element -->
+                            <p class="deal text-center">The deal ends in <span id="demo"></span></p>
+                            <div class="buttons">
+                                <button class="btn">Join now</button>
+                                <button class="btn">Contact Us</button>
+                            </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="gymimg" src="exercise.avif" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Pricing</h1>
+                <p class="my-2">Health & Fitness Club is a renowned name in the industry of health and fitness. We offer training in gym, swimming, yoga, and cardio at our various brances across the city. Having an area of approximately 3000 sq. ft., ours is a three-floored gymming area with different sections and proficient trainers from all over the country. We have quality assured hip abductor, sprinter & double machine setup for all types of machines. Our equipment assures full-safety during the exercise phase.</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>BASIC</h2>
+                        <ul>
+                            <li class="highlighted">₹1000/month</li>
+                            <li>Access to GYM facilities 24x7</li>
+                            <li>Personal locker is not provided</li>
+                            <li>1 Group class per week</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>STANDARD</h2>
+                        <ul>
+                            <li class="highlighted">₹1500/month</li>
+                            <li>Access to GYM facilities 24x7</li>
+                            <li>Personal locker provided</li>
+                            <li>2 Group classes per week</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>PREMIUM</h2>
+                        <ul>
+                            <li class="highlighted">₹2000/month</li>
+                            <li>Access to GYM facilities 24x7</li>
+                            <li>Personal locker provided</li>
+                            <li>4 Group classes per week</li>
+                            <li>Personal Training provided</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Contact Us</h1>
+            
+                <div class="contact-form-container">
+                    <p>Feel free to reach out to us anytime, we will be happy to help<p>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                
+                    <div>
+                        <select name="plan" >
+                            <option disabled selected>Interested In...</option>
+                            <option value="Basic">Basic Package</option>
+                            <option value="Standard">Standard Package</option>
+                            <option value="Premium">Premium Package</option>
+                        </select>
+                    </div>
+                    <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            <h5><div class="contact-info">
+                <p>Address: 25A Raj Colony, Pratap Nagar, Jaipur - 302012</p>
+                <p>Phone: +91 8259052429</p>
+                <p>Email: health&fitness25.gmail.com</p>
+            </div></h5>
+            <br>
+        <span>Copyright &copy; 2015 All rights reserved - By Health & Fitness Club India</span>
+        </footer>
+
+    </div>
+</body>
+
+</html>
